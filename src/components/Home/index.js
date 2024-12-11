@@ -18,7 +18,6 @@ class Home extends Component {
         if(appliance === "ALL" || appliance === "Television" || appliance === "Refrigirator" || appliance === "Air Conditioner"){
             const details = {location, appliance}
             const url = 'https://landing-page-backend-chi.vercel.app/technicians'
-            console.log(JSON.stringify(details))
             const options = {
                 method: 'POST',
                 headers: {
@@ -42,7 +41,6 @@ class Home extends Component {
 
     render() {
         const {appliance,displayError, techniciansList} = this.state
-        console.log(techniciansList)
         return (
             <>
             <div className="home-container">
