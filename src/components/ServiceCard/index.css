@@ -1,0 +1,19 @@
+.list-item {
+    width: 31%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.name {
+    margin: 10px 0px 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .list-item {
+        width: 95%;
+    }
+}

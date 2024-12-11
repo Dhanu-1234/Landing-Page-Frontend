@@ -1,0 +1,30 @@
+.services-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.services-heading {
+    color: #000000;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.services-list {
+    width: 100%;
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+    .services-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

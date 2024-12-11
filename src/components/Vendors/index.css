@@ -1,0 +1,94 @@
+.vendors-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.venodrs-heading {
+    font-weight: 500;
+}
+
+.vendors-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.venodrs-card {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: #e0e0eb 1px 1px 10px 2px;
+    border-radius: 5px;
+}
+
+.vendor-profile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.vendor-name {
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.vendor-details {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.mini-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+.text-1 {
+    color: #404040;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 1px;
+}
+
+.text-2 {
+    color: #999999;
+    margin: 1px;
+}
+
+.show-more {
+    color: #3385ff;
+    margin: 1px;
+}
+
+@media screen and (max-width: 1000px) {
+    .venodrs-card {
+        width: 40%;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .vendors-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .venodrs-card {
+        width: 95%;
+        margin: 5px;
+    }
+}

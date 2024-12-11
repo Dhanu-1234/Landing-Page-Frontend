@@ -1,0 +1,23 @@
+.book-request-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-request-heading {
+    color: #000000;
+    font-weight: 500;
+}
+
+.request-steps-list {
+    width: 100%;
+    list-style: none;
+    padding-left: 0px;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}

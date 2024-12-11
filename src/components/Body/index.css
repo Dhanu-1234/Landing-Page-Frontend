@@ -1,0 +1,13 @@
+.body-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+    .body-container {
+        width: 95%;
+    }
+}
